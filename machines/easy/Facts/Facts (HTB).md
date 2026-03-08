@@ -258,8 +258,6 @@ After setting proper permissions:
 chmod 600 id_ed25519
 ```
 
-The key required a passphrase. I extracted the hash using `ssh2john` and cracked it with John the Ripper using the rockyou wordlist.
-
 That File(id_ed####) A Brivate key for ssh connection
 
 **After Download the private key, I converted it into a format compatible with John the Ripper using `ssh2john.py`. Then, I launched a dictionary attack with the rockyou wordlist. Within a few minutes, John successfully recovered the passphrase: `dragonballz`**
