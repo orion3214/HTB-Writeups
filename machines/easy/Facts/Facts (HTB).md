@@ -181,7 +181,7 @@ and escalate their privileges.
 ### Running the Exploit
 
 ```
-python3 exploit.py -u http://facts.htb -U USER -P PASSWORD --newpass aass11223 -e -r
+python3 exploit.py -u http://facts.htb -U USER -P PASSWORD --newpass <new_pass> -e -r
 ```
 
 After exploitation, the script extracted **S3 credentials**.
