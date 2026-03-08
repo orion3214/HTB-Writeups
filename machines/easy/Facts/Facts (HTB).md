@@ -195,8 +195,8 @@ After exploitation, the script extracted **S3 credentials**.
    User ID: 5
    Updated User Role: admin
 [+]Extracting **S3 Credentials**
-   **s3 access key: AKIA8E034B8280B80064****
-   **s3 secret key: 08lQrT05W/0XmTkJrkbK02WXMgz5lldX4N9tD7Pt****
+   **s3 access key: AKIA8E0340064****
+   **s3 secret key: 08lQrT05W/0XmTkJrkbK02WXMgz5lldXt****
    s3 endpoint: http://localhost:54321
 [+]Reverting User Role
    User ID: 5
@@ -239,7 +239,7 @@ Revealed:
 Inside `.ssh` I found:
 
 ```
-id_ed25519
+id_ed#####
 ```
 
 ------
